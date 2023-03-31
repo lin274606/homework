@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lab_Csharp\Work_Calculater\bin\Debug\Work_Calculater.exe.config
+C:\Users\User\source\repos\Lab_Csharp\Work_Calculater\bin\Debug\Work_Calculater.exe
+C:\Users\User\source\repos\Lab_Csharp\Work_Calculater\bin\Debug\Work_Calculater.pdb
+C:\Users\User\source\repos\Lab_Csharp\Work_Calculater\obj\Debug\Work_Calculater.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Lab_Csharp\Work_Calculater\obj\Debug\Work_Calculater.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\Lab_Csharp\Work_Calculater\obj\Debug\Work_Calculater.Calculater.resources
+C:\Users\User\source\repos\Lab_Csharp\Work_Calculater\obj\Debug\Work_Calculater.Properties.Resources.resources
+C:\Users\User\source\repos\Lab_Csharp\Work_Calculater\obj\Debug\Work_Calculater.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Lab_Csharp\Work_Calculater\obj\Debug\Work_Calculater.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lab_Csharp\Work_Calculater\obj\Debug\Work_Calculater.exe
+C:\Users\User\source\repos\Lab_Csharp\Work_Calculater\obj\Debug\Work_Calculater.pdb
