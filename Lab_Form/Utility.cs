@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -46,5 +47,21 @@ namespace Lab_Form
     {
         Admin,
         User
+    }
+    public struct Employee
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public Employee(string EmployeeName,int EmployeeAge)
+        {
+            Name = EmployeeName;
+            Age = EmployeeAge;
+        }
+    }
+    public struct Product
+    {
+        public string Name;
+        public decimal Price;
+        public int Amount;
     }
 }

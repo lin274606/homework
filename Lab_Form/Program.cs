@@ -16,7 +16,7 @@ namespace Lab_Form
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_M18_enum());
+            Application.Run(new Form_M34_ReadWrite());
         }
     }
 }

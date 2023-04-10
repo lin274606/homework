@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form_M21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_M21.Designer.cs">
+      <DependentUpon>Form_M21.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_M08.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,10 +94,55 @@
     <Compile Include="Form_M18_enum.Designer.cs">
       <DependentUpon>Form_M18_enum.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_M19_struct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_M19_struct.Designer.cs">
+      <DependentUpon>Form_M19_struct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_M26_array.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_M26_array.Designer.cs">
+      <DependentUpon>Form_M26_array.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_M28_進階方法.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_M28_進階方法.Designer.cs">
+      <DependentUpon>Form_M28_進階方法.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_M29_傳統集合.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_M29_傳統集合.Designer.cs">
+      <DependentUpon>Form_M29_傳統集合.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_M29_泛用集合.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_M29_泛用集合.Designer.cs">
+      <DependentUpon>Form_M29_泛用集合.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_M32_String.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_M32_String.Designer.cs">
+      <DependentUpon>Form_M32_String.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_M34_ReadWrite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_M34_ReadWrite.Designer.cs">
+      <DependentUpon>Form_M34_ReadWrite.cs</DependentUpon>
+    </Compile>
     <Compile Include="PartialClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility.cs" />
+    <EmbeddedResource Include="Form_M21.resx">
+      <DependentUpon>Form_M21.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_M08.resx">
       <DependentUpon>Form_M08.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,6 +163,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_M18_enum.resx">
       <DependentUpon>Form_M18_enum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_M19_struct.resx">
+      <DependentUpon>Form_M19_struct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_M26_array.resx">
+      <DependentUpon>Form_M26_array.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_M28_進階方法.resx">
+      <DependentUpon>Form_M28_進階方法.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_M29_傳統集合.resx">
+      <DependentUpon>Form_M29_傳統集合.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_M29_泛用集合.resx">
+      <DependentUpon>Form_M29_泛用集合.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_M32_String.resx">
+      <DependentUpon>Form_M32_String.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_M34_ReadWrite.resx">
+      <DependentUpon>Form_M34_ReadWrite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
