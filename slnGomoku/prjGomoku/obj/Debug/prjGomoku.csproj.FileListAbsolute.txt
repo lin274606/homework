@@ -9,3 +9,14 @@ C:\Users\User\source\repos\lin274606\homework\slnGomoku\prjGomoku\obj\Debug\prjG
 C:\Users\User\source\repos\lin274606\homework\slnGomoku\prjGomoku\obj\Debug\prjGomoku.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\lin274606\homework\slnGomoku\prjGomoku\obj\Debug\prjGomoku.exe
 C:\Users\User\source\repos\lin274606\homework\slnGomoku\prjGomoku\obj\Debug\prjGomoku.pdb
+C:\Users\user\Documents\GitHub\homework\slnGomoku\prjGomoku\bin\Debug\prjGomoku.exe.config
+C:\Users\user\Documents\GitHub\homework\slnGomoku\prjGomoku\bin\Debug\prjGomoku.exe
+C:\Users\user\Documents\GitHub\homework\slnGomoku\prjGomoku\bin\Debug\prjGomoku.pdb
+C:\Users\user\Documents\GitHub\homework\slnGomoku\prjGomoku\obj\Debug\prjGomoku.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\homework\slnGomoku\prjGomoku\obj\Debug\prjGomoku.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Documents\GitHub\homework\slnGomoku\prjGomoku\obj\Debug\prjGomoku.Form1.resources
+C:\Users\user\Documents\GitHub\homework\slnGomoku\prjGomoku\obj\Debug\prjGomoku.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\homework\slnGomoku\prjGomoku\obj\Debug\prjGomoku.csproj.GenerateResource.cache
+C:\Users\user\Documents\GitHub\homework\slnGomoku\prjGomoku\obj\Debug\prjGomoku.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\homework\slnGomoku\prjGomoku\obj\Debug\prjGomoku.exe
+C:\Users\user\Documents\GitHub\homework\slnGomoku\prjGomoku\obj\Debug\prjGomoku.pdb
