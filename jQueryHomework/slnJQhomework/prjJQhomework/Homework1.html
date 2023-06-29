@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Homework1.html</title>
+    <style>
+        .topic-container {
+            text-align: center;
+        }
+
+        .topic {
+            display: inline-block;
+            margin-right: 30px;
+        }
+
+        .rating {
+            text-align: center;
+        }
+
+        .star {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+            .star img {
+                margin-right: 20px
+            }
+
+        .score {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <div class="topic-container">
+        <h1 class="topic"><a href="Homework1.html">Homework1</a></h1>
+        <h1 class="topic"><a href="Homework2.html">Homework2</a></h1>
+        <h1 class="topic">Homework3</h1>
+        <h1 class="topic">Homework4</h1>
+    </div>
+    <div class="rating">
+        <img src="images/star.gif" class="star" data-rating="1" />
+        <img src="images/star.gif" class="star" data-rating="2" />
+        <img src="images/star.gif" class="star" data-rating="3" />
+        <img src="images/star.gif" class="star" data-rating="4" />
+        <img src="images/star.gif" class="star" data-rating="5" />
+    </div>
+    <p class="score" id="scoreText">請給分</p>
+
+    <script>
+        var selectedRating = 0;        
+        var isRated = false;
+
+        $('.star').on('mouseenter', function () {
+            $(this).prop("src", "images/chngstar.gif");
+            $(this).prevAll(".star").prop("src", "images/chngstar.gif");
+            var selectedRating = parseInt($(this).data('rating'));
+           
+            $('#scoreText').text(selectedRating + '分');
+        });
+
+
+        $('.star').on('mouseleave', function () {
+            if (isRated) {
+                $('.star').off('mouseleave');
+            } else {
+                $(this).parent().children().prop("src", "images/star.gif");
+                $('#scoreText').text('請給分')
+            }
+
+        });
+
+        // 點擊評分
+        $('.star').click(function () {
+            $(this).parent().children().prop("src", "images/star.gif");
+            $(this).prop("src", "images/chngstar.gif");
+            $(this).prevAll(".star").prop("src", "images/chngstar.gif");
+            var selectedRating = parseInt($(this).data('rating'));
+            $('#scoreText').text('你打了' + selectedRating + '分');
+            isRated = true;
+
+        });
+
+        // 重置評分
+        $('.star').dblclick(function () {
+            selectedRating = 0;
+           
+            $(this).parent().children().prop("src", "images/star.gif");
+            isRated = false;
+            $('#scoreText').text('請給分')
+        });
+
+
+    </script>
+</body>
+</html>
