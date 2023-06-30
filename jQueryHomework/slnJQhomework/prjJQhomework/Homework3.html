@@ -12,6 +12,7 @@
             display: inline-block;
             margin-right: 30px;
         }
+
         img {
             position: absolute;
             width: 100%;
@@ -32,7 +33,7 @@
     <div class="topic-container">
         <h1 class="topic"><a href="Homework1.html">Homework1</a></h1>
         <h1 class="topic"><a href="Homework2.html">Homework2</a></h1>
-        <h1 class="topic">Homework3</h1>
+        <h1 class="topic"><a href="Homework3.html">Homework3</a></h1>
         <h1 class="topic">Homework4</h1>
     </div>
     <div id="div1">
@@ -42,15 +43,24 @@
     <script src="js/jquery-3.7.0.min.js"></script>
     <script>
 
-        move_div();
+        
 
         //當視窗放大或縮小時呼叫move_div的函式
         //讓div1置中
+        let originalwindowHeight = $(window).height();
+        let originalwindowWidth = $(window).width();
+        move_div();
         $(window).resize(move_div);
 
         function move_div() {
             let windowHeight = $(this).height();
             let windowWidth = $(this).width();
+
+            let HeightChange = originalwindowHeight - windowHeight;
+            let WidthChange = originalwindowWidth - windowWidth;
+
+            $("#div1").css("height", `${400 - HeightChange}px` ).css("width", 600 - WidthChange);
+
             let objHeight = $("#div1").height();
             let objWidth = $("#div1").width();
 
@@ -58,6 +68,8 @@
             let left = (windowWidth - objWidth) / 2;
 
             $("#div1").css("top", top).css("left", left);
+
+            
         }
     </script>
 
